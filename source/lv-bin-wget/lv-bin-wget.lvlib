@@ -43,7 +43,6 @@
 			<Item Name="fg_temp_dir_config.vi" Type="VI" URL="../private/_globals/fg_temp_dir_config.vi"/>
 		</Item>
 		<Item Name="_subvis" Type="Folder">
-			<Item Name="utilities" Type="Folder"/>
 			<Item Name="get_path_wget.vi" Type="VI" URL="../private/_subvis/get_path_wget.vi"/>
 		</Item>
 	</Item>

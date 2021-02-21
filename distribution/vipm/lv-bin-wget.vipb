@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2020-12-20 18:46:22" Modified_Date="2021-02-20 19:05:07" Creator="noobius" Comments="" ID="a2a4b99b1fcd7ff4b637cfab5de0a6cf">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2020-12-20 18:46:22" Modified_Date="2021-02-20 19:47:38" Creator="noobius" Comments="" ID="8e3717628df2f17e4dc1e852e74fc512">
   <Library_General_Settings>
     <Package_File_Name>antonio_alexander_lib_lv_bin_wget</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\working\lv-bin-wget</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -35,7 +35,8 @@
       <Packager>Antonio Alexander</Packager>
       <URL>http://github.com/antonio-alexander/lv-bin-wget</URL>
       <Release_Notes>- Initial release
-- Added add_system_path.vi which will pull the paths from the environmental variables and attempt to resolve the stored files.</Release_Notes>
+- Added add_system_path.vi which will pull the paths from the environmental variables and attempt to resolve the stored files.
+- Modified "url_to_filename.vi" to strip anything after a "?" (including the question mark)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -216,7 +217,7 @@
         <Path>..\working\lv-bin-wget\public</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CC013ED2766EE3AEFF9471F6FA772398</GUID>
+      <GUID>01718C6EE14755293047D817756736C7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -251,7 +252,7 @@
         <Path>..\working\lv-bin-wget\public\api</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F84F86CC2C9EE5FFC21FF7201C51A1FB</GUID>
+      <GUID>C6E00F6884B7B074F6B7F10629A43025</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -286,7 +287,7 @@
         <Path>..\working\lv-bin-wget\public\api\v1</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0568D6B72E393F18ADD2C9C4CA1754CB</GUID>
+      <GUID>63E4239BB59678F5E6452C9506D78D9A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -335,7 +336,7 @@
         <Path>..\working\lv-bin-wget\public\api\v1\download.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>49E9A5AAC8427D967B8C2750CF2DF041</GUID>
+      <GUID>44F06C1BD1DFA00B1110E57EA1B39434</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -370,7 +371,7 @@
         <Path>..\working\lv-bin-wget\public\api\v1\examples\example_01_download.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>999EF8E15B94104676B355150A1B7F77</GUID>
+      <GUID>806E006A8726882284B781CEF7E754E4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

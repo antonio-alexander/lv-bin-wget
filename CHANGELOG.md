@@ -9,3 +9,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release
 - Added add_system_path.vi which will pull the paths from the environmental variables and attempt to resolve the stored files.
+- Modified "url_to_filename.vi" to strip anything after a "?" (including the question mark)
