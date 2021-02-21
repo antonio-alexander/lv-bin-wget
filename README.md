@@ -17,4 +17,4 @@ As described above, this library allows you to download a file using the wget ex
 
 ## Example 01 - Download
 
-![v1.lvlib:examples/example_01_download.vi](../../doc/lv-bin-wget/v1_example_01_download.png "Make Installer")
+![v1.lvlib:examples/example_01_download.vi](doc/v1_example_01_download.png "Make Installer")
