@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2020-12-20 18:46:22" Modified_Date="2021-02-11 16:49:48" Creator="noobius" Comments="" ID="dbdd78e04aa781edcde753de5e9d91fe">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2020-12-20 18:46:22" Modified_Date="2021-02-20 19:05:07" Creator="noobius" Comments="" ID="a2a4b99b1fcd7ff4b637cfab5de0a6cf">
   <Library_General_Settings>
     <Package_File_Name>antonio_alexander_lib_lv_bin_wget</Package_File_Name>
-    <Library_Version>0.10.0.3</Library_Version>
+    <Library_Version>1.0.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\working\lv-bin-wget</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>antonio_alexander_lib_lv_bin &gt;=1.0.0.6</Additional_External_Dependencies>
+      <Additional_External_Dependencies>antonio_alexander_lib_lv_bin &gt;=1.1.0.10</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -29,12 +29,13 @@
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>lv-bin-wget.vipc</VI_Package_Configuration_File>
     <Description>
-      <One_Line_Description_Summary/>
-      <Description/>
+      <One_Line_Description_Summary>lv-bin-wget is a library that provides the ability to interact with the wget executable and download one or more files (similar to curl)</One_Line_Description_Summary>
+      <Description>lv-bin-wget is a library that provides the ability to interact with the wget executable and download one or more files (similar to curl)</Description>
       <Copyright/>
       <Packager>Antonio Alexander</Packager>
-      <URL/>
-      <Release_Notes>- Added add_system_path.vi which will pull the paths from the environmental variables and attempt to resolve the stored files.</Release_Notes>
+      <URL>http://github.com/antonio-alexander/lv-bin-wget</URL>
+      <Release_Notes>- Initial release
+- Added add_system_path.vi which will pull the paths from the environmental variables and attempt to resolve the stored files.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -215,7 +216,7 @@
         <Path>..\working\lv-bin-wget\public</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>375BD0002908C4296F514CBB209AC398</GUID>
+      <GUID>CC013ED2766EE3AEFF9471F6FA772398</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -250,7 +251,7 @@
         <Path>..\working\lv-bin-wget\public\api</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>869A91ABE96E1A1F9A2C148797BF558A</GUID>
+      <GUID>F84F86CC2C9EE5FFC21FF7201C51A1FB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -285,7 +286,7 @@
         <Path>..\working\lv-bin-wget\public\api\v1</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C17D0F29CFDCC2657E2139285A0E4C84</GUID>
+      <GUID>0568D6B72E393F18ADD2C9C4CA1754CB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -334,7 +335,7 @@
         <Path>..\working\lv-bin-wget\public\api\v1\download.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B5C16F286CB181C5CA5A3A872FCA8CB1</GUID>
+      <GUID>49E9A5AAC8427D967B8C2750CF2DF041</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -369,7 +370,7 @@
         <Path>..\working\lv-bin-wget\public\api\v1\examples\example_01_download.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8DF30F1578005DD45D049933736B6DF9</GUID>
+      <GUID>999EF8E15B94104676B355150A1B7F77</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
